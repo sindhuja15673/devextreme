@@ -85,16 +85,7 @@ export default function CrudTable() {
                        
                         <Toolbar>
                             <Item style={{padding: "5px 25px" }}  name="searchPanel" location="before" />
-                            {/* <Item location="before">
-                            <FiFilter />
-            <SelectBox
-                items={statusOptions}
-                placeholder="Filter by Status"
-                value={filterStatus}
-                onValueChanged={(e) => setFilterStatus(e.value)}
-                style={{ width: "200px" }}
-            />
-        </Item> */}
+                            
 
 <Item location="before" name='filter' >
         <FiFilter style={{ marginLeft: "120px",marginTop:"18px", verticalAlign: "middle" }} />
