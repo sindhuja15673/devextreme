@@ -1,0 +1,231 @@
+.custom-popup .dx-overlay-content {
+    background-color: #f7f9fc; 
+    border-radius: 10px;
+}
+
+.dx-form .dx-item {
+    margin-bottom: 15px;
+    
+}
+
+.dx-popup-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.dx-popup-content {
+    padding: 20px;
+}
+
+.dx-button {
+    background-color: #28a745 !important; 
+    color: white !important;
+    font-weight: bold;
+    border-radius: 5px;
+    
+}
+
+.dx-button:hover {
+    background-color: #218838 !important;
+}
+
+.dx-datagrid-addrow-button:hover {
+    background-color: #218838 !important;
+}
+
+
+
+
+.toggle-btn {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.toggle-btn:hover {
+    background-color: #0056b3;
+}
+
+.kanban-board {
+    display: flex;
+    justify-content: space-between;
+    
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.kanban-column {
+    flex: 1;
+    background: white;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0px 0px 5px grey;
+    min-height: 300px;
+}
+
+.kanban-column h3 {
+    text-align: left;
+    /* padding-bottom: 5px; */
+    margin-top: -5px;
+    padding: 10px 10px;
+    border-bottom: 2px solid #ddd;
+    padding: 10px;
+}
+
+.kanban-task {
+    padding: 10px;
+    /* background: #e3f2fd; */
+    margin: 10px 0;
+    border-radius: 5px;
+    cursor: grab;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.btn-container{
+    background-color: #ccc;
+    display: flex;
+    gap:0px;
+    justify-content: center;
+    border-radius: 5px; 
+}
+
+
+button {
+    padding: 6px 13px;
+    margin: 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #ccc;
+    font-size: 14px;
+}
+
+button.active-btn {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+
+.dx-datagrid-search-panel {
+    width: 400px !important; 
+    margin-left: 10px; 
+}
+
+
+.kanban-board {
+    display: flex;
+    gap: 20px;
+}
+
+.kanban-column {
+    width: 20%;
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+    min-height: 200px;
+}
+.kanban-column:hover{
+    background: #f8f9fa;
+}
+.kanban-task {
+    background: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+
+.count{
+    border: 1px solid rgb(173, 171, 171);
+    background-color: white;
+    border-radius: 15px;
+    padding: 0px 0px 1px 0px;
+    width: 40px;
+    height: 25px;
+    text-align: center;
+    margin-top: -3px;
+}
+
+
+/* crud.css */
+.priority-high{
+
+    color: red;
+    background-color: #fcdada; 
+    padding: 4px 12px;
+    border-radius: 15px;
+    font-size: 14px;
+    display: inline-block;
+}
+.priority-urgent{
+
+    color: red;
+    background-color: #fac8c8; 
+    padding: 4px 12px;
+    border-radius: 15px;
+    font-size: 14px;
+    display: inline-block;
+}
+.priority-low{
+
+    color: green;
+    background-color: rgb(225, 247, 225); 
+    padding: 4px 12px;
+    border-radius: 15px;
+    font-size: 14px;
+    display: inline-block;
+}
+.priority-medium{
+
+    color: orange;
+    background-color: rgb(253, 233, 194); 
+    padding: 4px 12px;
+    border-radius: 15px;
+    font-size: 14px;
+    display: inline-block;
+}
+.priority-none{
+
+    color: grey;
+    background-color: rgb(235, 231, 231); 
+    padding: 4px 12px;
+    border-radius: 15px;
+    font-size: 14px;
+    display: inline-block;
+}
+.status-not-started {
+    
+    color: black;
+    background-color: white; /* Light Red */
+    border: 1px solid rgb(139, 138, 138);
+    padding: 4px 12px;
+    border-radius: 15px;
+    font-size: 14px;
+    display: inline-block;
+}
+
+.status-in-progress {
+    color: rgb(97, 94, 253);
+    /* background-color: rgb(245, 237, 237); Light Orange */
+    background-color: rgb(226, 240, 245);
+    padding: 4px 12px;
+    border-radius: 15px;
+    font-size: 14px;
+    display: inline-block;
+}
+
+.status-completed {
+    color: white;
+    background-color: green; /* Light Green */
+    padding: 4px 12px;
+    border-radius: 15px;
+    font-size: 14px;
+    display: inline-block;
+}
