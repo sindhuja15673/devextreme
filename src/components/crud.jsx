@@ -12,7 +12,6 @@ import { FiFilter } from "react-icons/fi";
 const priority = ["None", "Low", "Medium", "High", "Urgent"];
 const statusOptions = ["All","Not started", "In Progress", "Completed"];
 
-
 const priorityCellRender = (cellData) => {
     return <span className={`priority-${cellData.value.toLowerCase()}`}>{cellData.value}</span>;
 };
@@ -54,7 +53,7 @@ export default function CrudTable() {
       const updatedTasks = [...taskData];
       const draggedItem = updatedTasks.find(task => task.ID.toString() === result.draggableId);
       if (draggedItem) {
-          draggedItem.Priority = priority[result.destination.droppableId]; // Update priority instead of status
+          draggedItem.Priority = priority[result.destination.droppableId];
           setTaskData([...updatedTasks]);
       }
   };
